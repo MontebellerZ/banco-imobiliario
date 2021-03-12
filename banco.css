@@ -1,0 +1,91 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: rgba(0,0,0,1);
+	background-size: 100% 100%;
+}
+
+#site{
+	height: 100%;
+	max-width: 1140px;
+	margin: auto;
+	background-color: rgba(255,255,255,0.9);
+	border: 0 solid black;
+	border-width: 0 3px;
+}
+
+#nickname{
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	position: fixed;
+	margin: 10px;
+	padding: 2px 5px;
+	background-color: rgba(145, 255, 107, 0.2);
+	text-align: center;
+}
+
+#nickname p{
+	margin: 0px;
+}
+
+#nickname button{
+	font-size: 16px;
+	margin: 2px 0;
+	border-radius: 4px;
+}
+
+#nickname button:nth-child(2){
+	margin-right: 5px;
+}
+
+#nickname button:hover{
+	transition: 0.3s ease;
+	background-color: rgba(255, 143, 143, 1);
+}
+
+#salas{
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.modo{
+	position: relative;
+	height: 100px;
+	margin: 0 5%;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 30px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.modo:hover{
+	transform: scale(1.1);
+}
+
+.modo p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#criar{
+	background-color: #fff1c2;
+}
+
+#entrar{
+	background-color: #d8ffcc;
+}
+
+#offline{
+	background-color: #bdd7ff;
+}
